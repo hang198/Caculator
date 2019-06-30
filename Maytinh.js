@@ -1,24 +1,27 @@
 function add() {
-    let a=Number(document.getElementById("number1").value);
-    let b=Number(document.getElementById("number2").value);
-    let c=a+b;
-    document.getElementById("result").innerHTML="Result: "+c;
+    let firstValue = Number(document.getElementById("number1").value);
+    let secondValue = Number(document.getElementById("number2").value);
+    let lastValue = firstValue + secondValue;
+    document.getElementById("result").innerHTML = "Result: " + lastValue;
 }
+
 function sub() {
-    let a=Number(document.getElementById("number1").value);
-    let b=Number(document.getElementById("number2").value);
-    let c=a-b;
-    document.getElementById("result").innerHTML="Result: "+c;
+    let firstValue = Number(document.getElementById("number1").value);
+    let secondValue = Number(document.getElementById("number2").value);
+    let lastValue = firstValue - secondValue;
+    document.getElementById("result").innerHTML = "Result: " + lastValue;
 }
+
 function multi() {
-    let a=Number(document.getElementById("number1").value);
-    let b=Number(document.getElementById("number2").value);
-    let c=a*b;
-    document.getElementById("result").innerHTML="Result: "+c;
+    let firstValue = Number(document.getElementById("number1").value);
+    let secondValue = Number(document.getElementById("number2").value);
+    let lastValue = firstValue * secondValue;
+    document.getElementById("result").innerHTML = "Result: " + lastValue;
 }
+
 function division() {
-    let a=Number(document.getElementById("number1").value);
-    let b=Number(document.getElementById("number2").value);
-    let c=a/b;
-    document.getElementById("result").innerHTML="Result: "+c;
+    let firstValue = Number(document.getElementById("number1").value);
+    let secondValue = Number(document.getElementById("number2").value);
+    let lastValue = firstValue / secondValue;
+    document.getElementById("result").innerHTML = "Result: " + lastValue;
 }
